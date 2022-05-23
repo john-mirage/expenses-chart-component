@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Primary Meta Tags -->
+    <title>Expenses Chart Component</title>
+    <meta name="title" content="Expenses Chart Component">
+    <meta name="description" content="Frontend mentor challenge solution for: Expenses Chart Component">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://john-mirage.github.io/expenses-chart-component/">
+    <meta property="og:title" content="Expenses Chart Component">
+    <meta property="og:description" content="Frontend mentor challenge solution for: Expenses Chart Component">
+    <meta property="og:image" content="https://john-mirage.github.io/expenses-chart-component/preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://john-mirage.github.io/expenses-chart-component/">
+    <meta property="twitter:title" content="Expenses Chart Component">
+    <meta property="twitter:description" content="Frontend mentor challenge solution for: Expenses Chart Component">
+    <meta property="twitter:image" content="https://john-mirage.github.io/expenses-chart-component/preview.jpg">
+    <script type="module" crossorigin src="/expenses-chart-component/assets/index.a35e37d3.js"></script>
+    <link rel="stylesheet" href="/expenses-chart-component/assets/index.e63ce0c1.css">
+  </head>
+
+  <body class="page">
+    <main class="page__container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="header__section">
+          <p class="header__balance header__balance--title">My balance</p>
+          <p class="header__balance header__balance--amount">$921.48</p>
+        </div>
+        <div class="header__section">
+          <svg class="header__logo" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#382314" cx="48" cy="24" r="24"/>
+              <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/>
+            </g>
+          </svg>
+        </div>
+      </header>
+
+      <!-- Chart -->
+      <div class="chart">
+        <h1 class="chart__title" id="chart-title">Spending - Last 7 days</h1>
+        <div class="chart__divider"></div>
+        <div class="chart__row">
+          <div class="chart__row-section chart__row-section--top">
+            <p class="chart__total chart__total--title">Total this month</p>
+            <p class="chart__total chart__total--amount">$478.33</p>
+          </div>
+          <div class="chart__row-section chart__row-section--bottom">
+            <p class="chart__update chart__update--percent">+2.4%</p>
+            <p class="chart__update chart__update--description">from last month</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Template | bar -->
+    <template id="template-bar">
+      <div class="bar">
+        <div class="bar__track">
+          <div class="bar__progress">
+            <div class="bar__amount"></div>
+          </div>
+        </div>
+        <p class="bar__day"></p>
+      </div>
+    </template>
+
+    
+  </body>
+
+</html>
